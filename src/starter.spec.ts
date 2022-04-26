@@ -1,7 +1,8 @@
 import {expect} from "chai"
+import { getLength} from "./starter";
 
-describe("some feature", () => {
-    it("should pass", ()=>{
-        expect('foo').to.not.equal('bar');
+describe("getLength test", () => {
+    it("getLength('example') should be 7",() => {
+        expect(getLength('example')).to.equal(7)
     })
 })
